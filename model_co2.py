@@ -1,69 +1,93 @@
-from properties.comp_physics import CO2Brine
-from properties.comp_properties import *
 from model_base import BaseModel
-from darts.engines import value_vector
-from properties.comp_operator_python import properties_evaluator
+from darts.engines import sim_params, value_vector
+from physics.physics_comp_sup import SuperPhysics
+import numpy as np
+from physics.properties_basic import *
+from physics.property_container import *
+from select_para import props
 
+# Model class creation here!
 class Model(BaseModel):
-
-    def __init__(self, n_points=100):
-        # call base class constructor
+    def __init__(self):
+        # Call base class constructor
         super().__init__()
 
+        self.zero = 1e-8
         """Physical properties"""
         # Create property containers:
-        self.property_container = property_container(phase_name=['gas', 'Aq'], component_name=['CO2', 'H2O'])
-        self.components = self.property_container.component_name
-        self.phases = self.property_container.phase_name
+        components_name = ['CO2', 'C1', 'H2O']
+        Mw = []
+        for name in components_name:
+            Mw.append(props(name, 'Mw'))
+        self.property_container = property_container(phases_name=['gas', 'wat'],
+                                                     components_name=components_name,
+                                                     Mw=Mw, min_z=self.zero / 10)
+        self.components = self.property_container.components_name
+        self.phases = self.property_container.phases_name
 
         """ properties correlations """
-        self.property_container.flash_ev = Flash(self.components)
-        self.property_container.density_ev = dict([('Aq', DensityBrine()), ('gas', DensityVap())])
-        self.property_container.viscosity_ev = dict([('Aq', ViscosityBrine()), ('gas', ViscosityVap())])
-        self.property_container.rel_perm_ev = dict([('Aq', PhaseRelPerm("Aq")), ('gas', PhaseRelPerm("gas"))])
-        self.property_container.rel_well_perm_ev = dict([('Aq', WellPhaseRelPerm("Aq")), ('gas', WellPhaseRelPerm("gas"))])
+        self.property_container.flash_ev = Flash(self.components, [4, 2, 1e-1], self.zero)
+        self.property_container.density_ev = dict([('gas', Density(compr=1e-3, dens0=200)),
+                                                   ('wat', Density(compr=1e-5, dens0=600))])
+        self.property_container.viscosity_ev = dict([('gas', ViscosityConst(0.05)),
+                                                     ('wat', ViscosityConst(0.5))])
+        self.property_container.rel_perm_ev = dict([('gas', PhaseRelPerm("gas")),
+                                                    ('wat', PhaseRelPerm("oil"))])
 
         """ Activate physics """
-        self.physics = CO2Brine(self.timer, n_points=501, min_p=100, max_p=500, min_z=1e-10, max_z=1-1e-10,
-                                property_container=self.property_container)
+        self.physics = SuperPhysics(self.property_container, self.timer, n_points=200, min_p=1, max_p=400,
+                                    min_z=self.zero/10, max_z=1-self.zero/10)
 
-        self.params.first_ts = 1e-2
+        self.inj_stream = [1.0 - 2 * self.zero, self.zero]
+        self.ini_stream = [0.01, 0.2]
+
+        # Some newton parameters for non-linear solution:
+        self.params.first_ts = 0.001
         self.params.mult_ts = 2
         self.params.max_ts = 5
 
-        # Newton tolerance is relatively high because of L2-norm for residual and well segments
-        self.params.tolerance_newton = 1e-3
+        self.params.tolerance_newton = 1e-2
         self.params.tolerance_linear = 1e-3
         self.params.max_i_newton = 20
         self.params.max_i_linear = 30
-        self.runtime = 900
-        self.inj = value_vector([0.999])
+        self.params.newton_type = sim_params.newton_local_chop
 
+    # Initialize reservoir and set boundary conditions:
     def set_initial_conditions(self):
         """ initialize conditions for all scenarios"""
-        self.physics.set_uniform_initial_conditions(self.reservoir.mesh, 220, [1e-8])
+        self.physics.set_uniform_initial_conditions(self.reservoir.mesh, 100, self.ini_stream)
+
+    def set_op_list(self):
+        self.op_num = np.array(self.reservoir.mesh.op_num, copy=False)
+        n_res = self.reservoir.mesh.n_res_blocks
+        self.op_num[n_res:] = 1
+        self.op_list = [self.physics.acc_flux_itor, self.physics.acc_flux_w_itor]
+
+    def export_pro_vtk(self, file_name='Saturation'):
+        Xn = np.array(self.physics.engine.X, copy=False)
+        P = Xn[0:self.reservoir.nb * 3:3]
+        z1 = Xn[1:self.reservoir.nb * 3:3]
+        z2 = Xn[2:self.reservoir.nb * 3:3]
+
+        sg = np.zeros(len(P))
+        sw = np.zeros(len(P))
+
+        for i in range(len(P)):
+            values = value_vector([0] * self.physics.n_ops)
+            state = value_vector((P[i], z1[i], z2[i]))
+            self.physics.property_itor.evaluate(state, values)
+            sg[i] = values[0]
+            sw[i] = 1 - sg[i]
+
+        self.export_vtk(file_name, local_cell_data={'GasSat': sg, 'WatSat': sw})
 
     def set_boundary_conditions(self):
         for i, w in enumerate(self.reservoir.wells):
-            if i == 18:
-                w.control = self.physics.new_rate_gas_inj(320, self.inj)
-                # w.control = self.physics.new_bhp_inj(230, self.inj_stream)
+            if w.name == 'INJ017':
+                w.control = self.physics.new_bhp_inj(180, self.inj_stream)
+            elif w.name == 'PROD024A' or w.name == 'PROD009':
+                w.control = self.physics.new_bhp_prod(80)
             else:
-                w.control = self.physics.new_bhp_prod(210)
+                w.control = self.physics.new_rate_prod(0, 1)
 
-    def export_vtk_comp(self, file_name='data'):
-        properties_vector = properties_evaluator(self.property_container)
-        nb = self.reservoir.nb
-        X = np.array(self.physics.engine.X)
-        pres = X[0:2*nb:2]
-        zg = X[1:2*nb:2]
-        Sg = np.zeros(nb)
-        xg = np.zeros(nb)
-
-        for i in range (nb):
-            state = value_vector([pres[i], zg[i]])
-            [Sg[i], xg[i], ] = properties_vector.evaluate(state)
-
-
-        self.export_vtk(file_name=file_name, local_cell_data={'GasSat': Sg, 'xCO2': xg})
 

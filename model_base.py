@@ -1,13 +1,12 @@
 from darts.models.reservoirs.struct_reservoir import StructReservoir
-from darts.models.physics.dead_oil import DeadOil
 from darts.models.darts_model import DartsModel
-from darts.engines import value_vector, sim_params
 import numpy as np
 from darts.tools.keyword_file_tools import load_single_keyword, save_few_keywords
 import os
 
+
 class BaseModel(DartsModel):
-    def __init__(self, n_points=100):
+    def __init__(self, n_points=1000):
         # call base class constructor
         super().__init__()
         self.n_points = n_points
@@ -46,137 +45,88 @@ class BaseModel(DartsModel):
 
         well_dia = 0.152
         well_rad = well_dia / 2
-        # """producers"""
-        self.reservoir.add_well("NA1A", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 38, 36, i + 1, well_radius=well_rad, multi_segment=False)
 
-        self.reservoir.add_well("NA2", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 9, 13, 14, 15, 16, 17, 18, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 21, 36, i + 1, well_radius=well_rad, multi_segment=False)
 
-        self.reservoir.add_well("NA3D", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 44, 43, i + 1, well_radius=well_rad, multi_segment=False)
+        keep_reading = True
+        prev_well_name = ''
+        with open('WELLS.INC') as f:
+            while keep_reading:
+                buff = f.readline()
+                if 'COMPDAT' in buff:
+                    while True:  # be careful here
+                        buff = f.readline()
+                        if len(buff) != 0:
+                            CompDat = buff.split()
 
-        self.reservoir.add_well("RJS19", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 17, 18, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 31, 27, i + 1, well_radius=well_rad, multi_segment=False)
+                            if len(CompDat) != 0 and '/' != CompDat[0]:  # skip the empty line and '/' line
 
-        self.reservoir.add_well("PROD005", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [1, 4, 5, 10, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 33, 18, i + 1, well_radius=well_rad, multi_segment=False)
+                                # define well
+                                if CompDat[0] == prev_well_name:
+                                    pass
+                                else:
+                                    self.reservoir.add_well(CompDat[0], wellbore_diameter=well_dia)
+                                    prev_well_name = CompDat[0]
 
-        self.reservoir.add_well("PROD008", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 19, 30, i + 1, well_radius=well_rad, multi_segment=False)
+                                # define perforation
+                                for i in range(int(CompDat[3]), int(CompDat[4]) + 1):
+                                    self.reservoir.add_perforation(self.reservoir.wells[-1],
+                                                                   int(CompDat[1]), int(CompDat[2]), i,
+                                                                   well_radius=well_rad,
+                                                                   multi_segment=False)
 
-        self.reservoir.add_well("PROD009", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 15, 40, i + 1, well_radius=well_rad, multi_segment=False)
+                            if len(CompDat) != 0 and '/' == CompDat[0]:
+                                keep_reading = False
+                                break
 
-        self.reservoir.add_well("PROD010", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 9, 14, 18, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 36, 42, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("PROD012", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 46, 23, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("PROD014", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 50, 18, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("PROD021", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 27, 41, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("PROD023A", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 65, 23, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("PROD024A", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 13, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 61, 35, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("PROD025A", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 57, 23, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ003", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 49, 23, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ005", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 31, 19, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ006", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 48, 34, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ007", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 9, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 59, 17, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ010", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 55, 30, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ015", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 36, 28, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ017", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 33, 39, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ019", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 13, 14, 19, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 29, 41, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ021", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 24, 28, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ022", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 48, 11, i + 1, well_radius=well_rad, multi_segment=False)
-
-        self.reservoir.add_well("INJ023", wellbore_diameter=well_dia)
-        for i in range(20):
-            if (i + 1) not in [4, 5, 9, 14, 20]:
-                self.reservoir.add_perforation(self.reservoir.wells[-1], 42, 18, i + 1, well_radius=well_rad, multi_segment=False)
 
         self.timer.node["initialization"].stop()
 
+    def wells4ParaView(self):
+        name = []
+        type = []
+        ix = []
+        iy = []
+        keep_reading = True
+        with open('WELLS.INC') as f:
+            while keep_reading:
+                buff = f.readline()
+                if 'WELSPECS' in buff:
+                    while True:  # be careful here
+                        buff = f.readline()
+                        if len(buff) != 0:
+                            welspecs = buff.split()
 
-    def set_op_list(self):
-        self.op_num = np.array(self.reservoir.mesh.op_num, copy=False)
-        n_res = self.reservoir.mesh.n_res_blocks
-        self.op_num[n_res:] = 1
-        self.op_list = [self.physics.acc_flux_itor, self.physics.acc_flux_itor_well]
+                            if len(welspecs) != 0 and welspecs[0] != '/' and welspecs[0][:2] != '--':  # skip the empty line and '/' line
+                                name += [welspecs[0]]
+                                if 'GROUP1' in welspecs[1]:
+                                    type += ['PRD']
+                                else:
+                                    type += ['INJ']
+                                ix += [welspecs[2]]
+                                iy += [welspecs[3]]
+                                # define perforation
+
+                            if len(welspecs) != 0 and welspecs[0] == '/':
+                                keep_reading = False
+                                break
+        f.close()
+
+        def str2file(fp, name_in, list_in):
+            fp.write("%s = [" % name_in)
+            for item in list_in:
+                fp.write("\'%s\', " % item)
+            fp.write("]\n")
+
+        def num2file(fp, name_in, list_in):
+            fp.write("%s = [" % name_in)
+            for item in list_in:
+                fp.write("%d, " % int(item))
+            fp.write("]\n")
+
+        f = open('well_gen.txt', 'w')
+        str2file(f, 'well_list', name)
+        str2file(f, 'well_type', type)
+        num2file(f, 'well_x', ix)
+        num2file(f, 'well_y', iy)
+        f.close()
+        print('done')

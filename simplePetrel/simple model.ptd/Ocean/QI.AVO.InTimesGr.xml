@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.InTimesGr droid="://QI.AVO.InTimesGr/31defc0a-f973-4757-b1bc-e569258bc1d8">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.InTimesGr/31defc0a-f973-4757-b1bc-e569258bc1d8</Droid>
+  </QI.AVO.InTimesGr>
+  <QI.AVO.InTimesGr droid="://QI.AVO.InTimesGr/ec9e5612-80b4-4e52-a846-ca18b0e439d9">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.InTimesGr/ec9e5612-80b4-4e52-a846-ca18b0e439d9</Droid>
+  </QI.AVO.InTimesGr>
+  <QI.AVO.InTimesGr droid="://QI.AVO.InTimesGr/da08e736-e2cc-4659-b035-fe8f071af31a">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.InTimesGr/da08e736-e2cc-4659-b035-fe8f071af31a</Droid>
+  </QI.AVO.InTimesGr>
+  <QI.AVO.InTimesGr droid="://QI.AVO.InTimesGr/62e2c9f0-5bd3-4f18-81a7-c8477313f01d">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.InTimesGr/62e2c9f0-5bd3-4f18-81a7-c8477313f01d</Droid>
+  </QI.AVO.InTimesGr>
+  <QI.AVO.InTimesGr droid="://QI.AVO.InTimesGr/d4af9f7c-9eae-45b1-9a03-bbaf3d3b0242">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.InTimesGr/d4af9f7c-9eae-45b1-9a03-bbaf3d3b0242</Droid>
+  </QI.AVO.InTimesGr>
+</XmlAutoDataSource>

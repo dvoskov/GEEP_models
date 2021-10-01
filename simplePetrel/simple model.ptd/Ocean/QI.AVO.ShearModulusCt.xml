@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.ShearModulusCt droid="://QI.AVO.ShearModulusCt/d180854a-e54d-4f60-b604-411d3729e7ba">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.ShearModulusCt/d180854a-e54d-4f60-b604-411d3729e7ba</Droid>
+  </QI.AVO.ShearModulusCt>
+  <QI.AVO.ShearModulusCt droid="://QI.AVO.ShearModulusCt/b82b77b4-72fe-4935-9d29-6a30dbfd5d9c">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.ShearModulusCt/b82b77b4-72fe-4935-9d29-6a30dbfd5d9c</Droid>
+  </QI.AVO.ShearModulusCt>
+  <QI.AVO.ShearModulusCt droid="://QI.AVO.ShearModulusCt/5fc77d70-bc69-4ef8-ac5e-5165b16374b1">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.ShearModulusCt/5fc77d70-bc69-4ef8-ac5e-5165b16374b1</Droid>
+  </QI.AVO.ShearModulusCt>
+  <QI.AVO.ShearModulusCt droid="://QI.AVO.ShearModulusCt/c8ef4e19-c4f2-4c9a-8067-af85cee21148">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.ShearModulusCt/c8ef4e19-c4f2-4c9a-8067-af85cee21148</Droid>
+  </QI.AVO.ShearModulusCt>
+  <QI.AVO.ShearModulusCt droid="://QI.AVO.ShearModulusCt/5829fa96-0d57-4784-b48f-148adededdfc">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.ShearModulusCt/5829fa96-0d57-4784-b48f-148adededdfc</Droid>
+  </QI.AVO.ShearModulusCt>
+</XmlAutoDataSource>

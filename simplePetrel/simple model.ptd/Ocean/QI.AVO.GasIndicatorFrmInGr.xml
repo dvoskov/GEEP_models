@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.GasIndicatorFrmInGr droid="://QI.AVO.GasIndicatorFrmInGr/3ad4be4c-7a49-4892-8f34-1bfa6382c256">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GasIndicatorFrmInGr/3ad4be4c-7a49-4892-8f34-1bfa6382c256</Droid>
+  </QI.AVO.GasIndicatorFrmInGr>
+  <QI.AVO.GasIndicatorFrmInGr droid="://QI.AVO.GasIndicatorFrmInGr/9ded7a63-c6e1-4a56-bc83-84e4abcaa7c9">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GasIndicatorFrmInGr/9ded7a63-c6e1-4a56-bc83-84e4abcaa7c9</Droid>
+  </QI.AVO.GasIndicatorFrmInGr>
+  <QI.AVO.GasIndicatorFrmInGr droid="://QI.AVO.GasIndicatorFrmInGr/2fe193b7-bd43-4125-9fe7-ae354d59d770">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GasIndicatorFrmInGr/2fe193b7-bd43-4125-9fe7-ae354d59d770</Droid>
+  </QI.AVO.GasIndicatorFrmInGr>
+  <QI.AVO.GasIndicatorFrmInGr droid="://QI.AVO.GasIndicatorFrmInGr/07c5b96f-715c-4383-98e8-21e1221c1951">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GasIndicatorFrmInGr/07c5b96f-715c-4383-98e8-21e1221c1951</Droid>
+  </QI.AVO.GasIndicatorFrmInGr>
+  <QI.AVO.GasIndicatorFrmInGr droid="://QI.AVO.GasIndicatorFrmInGr/086e1af5-ccdf-4234-ad66-3b64767bbf74">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GasIndicatorFrmInGr/086e1af5-ccdf-4234-ad66-3b64767bbf74</Droid>
+  </QI.AVO.GasIndicatorFrmInGr>
+</XmlAutoDataSource>

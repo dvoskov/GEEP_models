@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.GidlowRb5 droid="://QI.AVO.GidlowRb5/7aa3ff91-499d-41df-b8ca-0609fe7d113a">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GidlowRb5/7aa3ff91-499d-41df-b8ca-0609fe7d113a</Droid>
+  </QI.AVO.GidlowRb5>
+  <QI.AVO.GidlowRb5 droid="://QI.AVO.GidlowRb5/b1970ea7-05fb-40d4-94c1-c1b1a0c1b33a">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GidlowRb5/b1970ea7-05fb-40d4-94c1-c1b1a0c1b33a</Droid>
+  </QI.AVO.GidlowRb5>
+  <QI.AVO.GidlowRb5 droid="://QI.AVO.GidlowRb5/0fd1bdec-aa27-4bab-9b80-520ee105d325">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GidlowRb5/0fd1bdec-aa27-4bab-9b80-520ee105d325</Droid>
+  </QI.AVO.GidlowRb5>
+  <QI.AVO.GidlowRb5 droid="://QI.AVO.GidlowRb5/18c88ae3-e91d-4edd-8b53-9a13aafab1e4">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GidlowRb5/18c88ae3-e91d-4edd-8b53-9a13aafab1e4</Droid>
+  </QI.AVO.GidlowRb5>
+  <QI.AVO.GidlowRb5 droid="://QI.AVO.GidlowRb5/6c64b4c9-6ce4-414b-9943-79cbb0fd4333">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.RobustWaldenArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <ScaleFactor>2.1</ScaleFactor>
+      <Overlap>0</Overlap>
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.GidlowRb5/6c64b4c9-6ce4-414b-9943-79cbb0fd4333</Droid>
+  </QI.AVO.GidlowRb5>
+</XmlAutoDataSource>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.NiPrcMult droid="://QI.AVO.NiPrcMult/16b5f324-41c0-4d77-827f-8e21aca80991">
+    <RotationAngle>0</RotationAngle>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.NiPrcMult/16b5f324-41c0-4d77-827f-8e21aca80991</Droid>
+  </QI.AVO.NiPrcMult>
+  <QI.AVO.NiPrcMult droid="://QI.AVO.NiPrcMult/9b60cda2-42c2-485f-a383-8c74e2b31145">
+    <RotationAngle>0</RotationAngle>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.NiPrcMult/9b60cda2-42c2-485f-a383-8c74e2b31145</Droid>
+  </QI.AVO.NiPrcMult>
+  <QI.AVO.NiPrcMult droid="://QI.AVO.NiPrcMult/5a228edd-7dc0-4120-ac11-180a15c5e0f5">
+    <RotationAngle>0</RotationAngle>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.NiPrcMult/5a228edd-7dc0-4120-ac11-180a15c5e0f5</Droid>
+  </QI.AVO.NiPrcMult>
+  <QI.AVO.NiPrcMult droid="://QI.AVO.NiPrcMult/cda94850-5f18-47eb-81c6-8c779ea6d59f">
+    <RotationAngle>0</RotationAngle>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.NiPrcMult/cda94850-5f18-47eb-81c6-8c779ea6d59f</Droid>
+  </QI.AVO.NiPrcMult>
+  <QI.AVO.NiPrcMult droid="://QI.AVO.NiPrcMult/71e6b9f6-c0b3-4ebc-8133-56582cb022e1">
+    <RotationAngle>0</RotationAngle>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.NiPrcMult/71e6b9f6-c0b3-4ebc-8133-56582cb022e1</Droid>
+  </QI.AVO.NiPrcMult>
+</XmlAutoDataSource>

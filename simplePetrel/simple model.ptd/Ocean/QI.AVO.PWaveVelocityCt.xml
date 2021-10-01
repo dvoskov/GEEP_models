@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PWaveVelocityCt droid="://QI.AVO.PWaveVelocityCt/971ea098-92b9-4be9-a6f0-d1537085528a">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PWaveVelocityCt/971ea098-92b9-4be9-a6f0-d1537085528a</Droid>
+  </QI.AVO.PWaveVelocityCt>
+  <QI.AVO.PWaveVelocityCt droid="://QI.AVO.PWaveVelocityCt/a8db9d12-7b46-45e3-9455-0366f19ec155">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PWaveVelocityCt/a8db9d12-7b46-45e3-9455-0366f19ec155</Droid>
+  </QI.AVO.PWaveVelocityCt>
+  <QI.AVO.PWaveVelocityCt droid="://QI.AVO.PWaveVelocityCt/d15512e8-352c-4068-bb2b-4f4e7ad238b0">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PWaveVelocityCt/d15512e8-352c-4068-bb2b-4f4e7ad238b0</Droid>
+  </QI.AVO.PWaveVelocityCt>
+  <QI.AVO.PWaveVelocityCt droid="://QI.AVO.PWaveVelocityCt/805bcfde-db72-45f1-b0e1-b6968ed1dfc0">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PWaveVelocityCt/805bcfde-db72-45f1-b0e1-b6968ed1dfc0</Droid>
+  </QI.AVO.PWaveVelocityCt>
+  <QI.AVO.PWaveVelocityCt droid="://QI.AVO.PWaveVelocityCt/8cde33b8-fa8c-4f37-849a-830fdc52ad98">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PWaveVelocityCt/8cde33b8-fa8c-4f37-849a-830fdc52ad98</Droid>
+  </QI.AVO.PWaveVelocityCt>
+</XmlAutoDataSource>

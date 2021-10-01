@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.FFFrmImpedanceCt droid="://QI.AVO.FFFrmImpedanceCt/96fd89ec-a092-4376-bca6-e70f1bf4332e">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.FFFrmImpedanceCt/96fd89ec-a092-4376-bca6-e70f1bf4332e</Droid>
+  </QI.AVO.FFFrmImpedanceCt>
+  <QI.AVO.FFFrmImpedanceCt droid="://QI.AVO.FFFrmImpedanceCt/56f28f24-ecfd-406d-b1da-4058459b980e">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.FFFrmImpedanceCt/56f28f24-ecfd-406d-b1da-4058459b980e</Droid>
+  </QI.AVO.FFFrmImpedanceCt>
+  <QI.AVO.FFFrmImpedanceCt droid="://QI.AVO.FFFrmImpedanceCt/1f130c6f-d2e8-4515-8fb9-e31baa9537ce">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.FFFrmImpedanceCt/1f130c6f-d2e8-4515-8fb9-e31baa9537ce</Droid>
+  </QI.AVO.FFFrmImpedanceCt>
+  <QI.AVO.FFFrmImpedanceCt droid="://QI.AVO.FFFrmImpedanceCt/842edc01-6d00-416c-ada9-aa7a99a9871b">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.FFFrmImpedanceCt/842edc01-6d00-416c-ada9-aa7a99a9871b</Droid>
+  </QI.AVO.FFFrmImpedanceCt>
+  <QI.AVO.FFFrmImpedanceCt droid="://QI.AVO.FFFrmImpedanceCt/08fbed60-5add-4d61-997a-ebafe3b0079f">
+    <VpVsRatio>2</VpVsRatio>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.FFFrmImpedanceCt/08fbed60-5add-4d61-997a-ebafe3b0079f</Droid>
+  </QI.AVO.FFFrmImpedanceCt>
+</XmlAutoDataSource>

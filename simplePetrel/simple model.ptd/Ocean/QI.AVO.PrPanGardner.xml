@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PrPanGardner droid="://QI.AVO.PrPanGardner/eb52a1eb-16e5-42c4-bd92-c34a86755f35">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPanGardner/eb52a1eb-16e5-42c4-bd92-c34a86755f35</Droid>
+  </QI.AVO.PrPanGardner>
+  <QI.AVO.PrPanGardner droid="://QI.AVO.PrPanGardner/9f890d7e-6f3d-47b0-9c7c-7eab70619e15">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPanGardner/9f890d7e-6f3d-47b0-9c7c-7eab70619e15</Droid>
+  </QI.AVO.PrPanGardner>
+  <QI.AVO.PrPanGardner droid="://QI.AVO.PrPanGardner/d7468274-6127-4293-8c17-e978d22bca54">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPanGardner/d7468274-6127-4293-8c17-e978d22bca54</Droid>
+  </QI.AVO.PrPanGardner>
+  <QI.AVO.PrPanGardner droid="://QI.AVO.PrPanGardner/4d74cb12-595d-4ebc-bc22-ef77045df06b">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPanGardner/4d74cb12-595d-4ebc-bc22-ef77045df06b</Droid>
+  </QI.AVO.PrPanGardner>
+  <QI.AVO.PrPanGardner droid="://QI.AVO.PrPanGardner/2f391039-d62b-4969-85ae-5c47a6e3c155">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPanGardner/2f391039-d62b-4969-85ae-5c47a6e3c155</Droid>
+  </QI.AVO.PrPanGardner>
+</XmlAutoDataSource>

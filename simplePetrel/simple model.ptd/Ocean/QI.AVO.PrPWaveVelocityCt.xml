@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PrPWaveVelocityCt droid="://QI.AVO.PrPWaveVelocityCt/4c75b073-13f3-4fbf-8354-4634a00d3bc8">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPWaveVelocityCt/4c75b073-13f3-4fbf-8354-4634a00d3bc8</Droid>
+  </QI.AVO.PrPWaveVelocityCt>
+  <QI.AVO.PrPWaveVelocityCt droid="://QI.AVO.PrPWaveVelocityCt/bb121ffb-f125-49ed-aa91-1eefb5d5f628">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPWaveVelocityCt/bb121ffb-f125-49ed-aa91-1eefb5d5f628</Droid>
+  </QI.AVO.PrPWaveVelocityCt>
+  <QI.AVO.PrPWaveVelocityCt droid="://QI.AVO.PrPWaveVelocityCt/b979170c-54e0-423a-92f1-4b35aba69c16">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPWaveVelocityCt/b979170c-54e0-423a-92f1-4b35aba69c16</Droid>
+  </QI.AVO.PrPWaveVelocityCt>
+  <QI.AVO.PrPWaveVelocityCt droid="://QI.AVO.PrPWaveVelocityCt/71103f71-5851-49d1-a000-bcdd7e3c7835">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPWaveVelocityCt/71103f71-5851-49d1-a000-bcdd7e3c7835</Droid>
+  </QI.AVO.PrPWaveVelocityCt>
+  <QI.AVO.PrPWaveVelocityCt droid="://QI.AVO.PrPWaveVelocityCt/7ee4ac1b-9d22-45cc-a3d5-76854aede4ba">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrPWaveVelocityCt/7ee4ac1b-9d22-45cc-a3d5-76854aede4ba</Droid>
+  </QI.AVO.PrPWaveVelocityCt>
+</XmlAutoDataSource>

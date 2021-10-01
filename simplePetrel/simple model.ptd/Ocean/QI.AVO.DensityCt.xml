@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.DensityCt droid="://QI.AVO.DensityCt/758e807f-2f48-4b64-b00b-3c00a32608ce">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.DensityCt/758e807f-2f48-4b64-b00b-3c00a32608ce</Droid>
+  </QI.AVO.DensityCt>
+  <QI.AVO.DensityCt droid="://QI.AVO.DensityCt/fb0e9973-d4a1-4fc0-9bcf-91cd76b389d8">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.DensityCt/fb0e9973-d4a1-4fc0-9bcf-91cd76b389d8</Droid>
+  </QI.AVO.DensityCt>
+  <QI.AVO.DensityCt droid="://QI.AVO.DensityCt/0b9bebd3-c7b4-48f8-9811-3ffc4ef26d25">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.DensityCt/0b9bebd3-c7b4-48f8-9811-3ffc4ef26d25</Droid>
+  </QI.AVO.DensityCt>
+  <QI.AVO.DensityCt droid="://QI.AVO.DensityCt/577eecfc-8b9c-4a31-b85c-2358e8990096">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.DensityCt/577eecfc-8b9c-4a31-b85c-2358e8990096</Droid>
+  </QI.AVO.DensityCt>
+  <QI.AVO.DensityCt droid="://QI.AVO.DensityCt/21c6efb0-7231-4402-bd27-369c3ea397ff">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.DensityCt/21c6efb0-7231-4402-bd27-369c3ea397ff</Droid>
+  </QI.AVO.DensityCt>
+</XmlAutoDataSource>

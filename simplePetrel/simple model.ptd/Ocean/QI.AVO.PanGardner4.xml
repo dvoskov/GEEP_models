@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PanGardner4 droid="://QI.AVO.PanGardner4/c2edc41a-b850-4051-a7df-713806af66da">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PanGardner4/c2edc41a-b850-4051-a7df-713806af66da</Droid>
+  </QI.AVO.PanGardner4>
+  <QI.AVO.PanGardner4 droid="://QI.AVO.PanGardner4/24860740-87c7-4c13-b67c-5e202734c903">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PanGardner4/24860740-87c7-4c13-b67c-5e202734c903</Droid>
+  </QI.AVO.PanGardner4>
+  <QI.AVO.PanGardner4 droid="://QI.AVO.PanGardner4/6a18e68b-5737-40fb-aa51-5572ef361891">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PanGardner4/6a18e68b-5737-40fb-aa51-5572ef361891</Droid>
+  </QI.AVO.PanGardner4>
+  <QI.AVO.PanGardner4 droid="://QI.AVO.PanGardner4/51dda100-7ccf-484b-9933-ea8b936e4291">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PanGardner4/51dda100-7ccf-484b-9933-ea8b936e4291</Droid>
+  </QI.AVO.PanGardner4>
+  <QI.AVO.PanGardner4 droid="://QI.AVO.PanGardner4/0f347d27-0775-4c07-a585-e356bd373171">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresSecondOrderArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PanGardner4/0f347d27-0775-4c07-a585-e356bd373171</Droid>
+  </QI.AVO.PanGardner4>
+</XmlAutoDataSource>

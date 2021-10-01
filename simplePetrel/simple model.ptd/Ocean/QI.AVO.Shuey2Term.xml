@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.Shuey2Term droid="://QI.AVO.Shuey2Term/2d9c71c8-14b9-4c52-9cbc-7168141434f5">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Shuey2Term/2d9c71c8-14b9-4c52-9cbc-7168141434f5</Droid>
+  </QI.AVO.Shuey2Term>
+  <QI.AVO.Shuey2Term droid="://QI.AVO.Shuey2Term/c3b09e39-2474-4259-9bbc-425505a43e8c">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Shuey2Term/c3b09e39-2474-4259-9bbc-425505a43e8c</Droid>
+  </QI.AVO.Shuey2Term>
+  <QI.AVO.Shuey2Term droid="://QI.AVO.Shuey2Term/edb0a539-ff06-49cf-af3b-bf663ac073be">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Shuey2Term/edb0a539-ff06-49cf-af3b-bf663ac073be</Droid>
+  </QI.AVO.Shuey2Term>
+  <QI.AVO.Shuey2Term droid="://QI.AVO.Shuey2Term/5e046eba-03b7-4b20-be34-5e7df9b4bf7f">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Shuey2Term/5e046eba-03b7-4b20-be34-5e7df9b4bf7f</Droid>
+  </QI.AVO.Shuey2Term>
+  <QI.AVO.Shuey2Term droid="://QI.AVO.Shuey2Term/a8e8e5e5-a3ae-4bea-873c-37a1900fa14a">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Shuey2Term/a8e8e5e5-a3ae-4bea-873c-37a1900fa14a</Droid>
+  </QI.AVO.Shuey2Term>
+</XmlAutoDataSource>

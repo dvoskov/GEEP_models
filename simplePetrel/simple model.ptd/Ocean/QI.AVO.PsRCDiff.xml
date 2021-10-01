@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PsRCDiff droid="://QI.AVO.PsRCDiff/1f5d444f-06d0-4702-9bb9-e4814ef523fb">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PsRCDiff/1f5d444f-06d0-4702-9bb9-e4814ef523fb</Droid>
+  </QI.AVO.PsRCDiff>
+  <QI.AVO.PsRCDiff droid="://QI.AVO.PsRCDiff/5b926386-f266-48ea-a489-80d22870ae87">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PsRCDiff/5b926386-f266-48ea-a489-80d22870ae87</Droid>
+  </QI.AVO.PsRCDiff>
+  <QI.AVO.PsRCDiff droid="://QI.AVO.PsRCDiff/37f939d7-bcbd-4ccf-9040-e0d8b3190ac9">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PsRCDiff/37f939d7-bcbd-4ccf-9040-e0d8b3190ac9</Droid>
+  </QI.AVO.PsRCDiff>
+  <QI.AVO.PsRCDiff droid="://QI.AVO.PsRCDiff/b9db406a-db95-486b-b081-42bb3e7b9909">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PsRCDiff/b9db406a-db95-486b-b081-42bb3e7b9909</Droid>
+  </QI.AVO.PsRCDiff>
+  <QI.AVO.PsRCDiff droid="://QI.AVO.PsRCDiff/5a30b759-c389-42d8-b283-5a8e257c549c">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.PsRCDiff/5a30b759-c389-42d8-b283-5a8e257c549c</Droid>
+  </QI.AVO.PsRCDiff>
+</XmlAutoDataSource>

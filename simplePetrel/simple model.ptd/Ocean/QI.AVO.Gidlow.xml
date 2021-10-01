@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.Gidlow droid="://QI.AVO.Gidlow/90158b3f-f2cc-4ded-98ba-e97eb46905ba">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Gidlow/90158b3f-f2cc-4ded-98ba-e97eb46905ba</Droid>
+  </QI.AVO.Gidlow>
+  <QI.AVO.Gidlow droid="://QI.AVO.Gidlow/6c744f0e-9c67-4e04-bf4f-04bd3cedd75d">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Gidlow/6c744f0e-9c67-4e04-bf4f-04bd3cedd75d</Droid>
+  </QI.AVO.Gidlow>
+  <QI.AVO.Gidlow droid="://QI.AVO.Gidlow/1079618f-723d-4929-ab23-ab128eac7ccd">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Gidlow/1079618f-723d-4929-ab23-ab128eac7ccd</Droid>
+  </QI.AVO.Gidlow>
+  <QI.AVO.Gidlow droid="://QI.AVO.Gidlow/6b925cba-4006-4c9b-875a-27a4b984df25">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Gidlow/6b925cba-4006-4c9b-875a-27a4b984df25</Droid>
+  </QI.AVO.Gidlow>
+  <QI.AVO.Gidlow droid="://QI.AVO.Gidlow/e36dbde0-aca9-4244-bd7a-80397eb5faa4">
+    <AdditionalSeismic />
+    <Angles>
+      <Item>0</Item>
+      <Item>0</Item>
+    </Angles>
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <Droid>://QI.AVO.Gidlow/e36dbde0-aca9-4244-bd7a-80397eb5faa4</Droid>
+  </QI.AVO.Gidlow>
+</XmlAutoDataSource>

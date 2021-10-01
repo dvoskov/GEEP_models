@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlAutoDataSource Version="1">
+  <QI.AVO.PrGidlow droid="://QI.AVO.PrGidlow/c029dae3-5332-44eb-b4c7-7b3ec82d6941">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrGidlow/c029dae3-5332-44eb-b4c7-7b3ec82d6941</Droid>
+  </QI.AVO.PrGidlow>
+  <QI.AVO.PrGidlow droid="://QI.AVO.PrGidlow/a4878998-9b9e-4abe-b80f-2bc56a1dc666">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrGidlow/a4878998-9b9e-4abe-b80f-2bc56a1dc666</Droid>
+  </QI.AVO.PrGidlow>
+  <QI.AVO.PrGidlow droid="://QI.AVO.PrGidlow/8b004d00-b756-43cf-863e-2f80521002fd">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrGidlow/8b004d00-b756-43cf-863e-2f80521002fd</Droid>
+  </QI.AVO.PrGidlow>
+  <QI.AVO.PrGidlow droid="://QI.AVO.PrGidlow/447afe96-4a61-497f-bcc6-c1bc78988276">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrGidlow/447afe96-4a61-497f-bcc6-c1bc78988276</Droid>
+  </QI.AVO.PrGidlow>
+  <QI.AVO.PrGidlow droid="://QI.AVO.PrGidlow/f6168687-c9da-4c2e-ad94-0951c508aa0e">
+    <PolynomialFitArguments Type="Slb.Brgc.Avo.Core.LineFitting.PolynomialFitting.LeastSquaresArgumentPackage" Assembly="Slb.Petrel.QI.AVO.Core" XmlSerializableMagic="42">
+      <InvertAxes>False</InvertAxes>
+    </PolynomialFitArguments>
+    <MinTrace>0</MinTrace>
+    <MaxTrace>0</MaxTrace>
+    <Step>0</Step>
+    <Droid>://QI.AVO.PrGidlow/f6168687-c9da-4c2e-ad94-0951c508aa0e</Droid>
+  </QI.AVO.PrGidlow>
+</XmlAutoDataSource>

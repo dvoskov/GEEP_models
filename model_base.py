@@ -25,6 +25,8 @@ class BaseModel(DartsModel):
             self.dx = load_single_keyword('width.in', 'DX')
             self.dy = load_single_keyword('width.in', 'DY')
             self.dz = load_single_keyword('width.in', 'DZ')
+        else:
+            self.dx = self.dy = self.dz = 0
 
         # Import other properties from files
         filename = 'grid.grdecl'

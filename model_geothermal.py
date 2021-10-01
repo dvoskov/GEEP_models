@@ -43,7 +43,7 @@ class Model(BaseModel):
         self.property_container.rock_energy_ev = custom_rock_energy_evaluator(self.rock)
 
         self.physics = Geothermal(property_container=self.property_container, timer=self.timer, n_points=128, min_p=1,
-                                  max_p=171, min_e=1000, max_e=55000, grav=False)
+                                  max_p=171, min_e=1000, max_e=55000, grav=True)
 
         self.params.first_ts = 1e-2
         self.params.mult_ts = 2

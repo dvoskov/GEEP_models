@@ -1,5 +1,5 @@
 from darts.engines import value_vector, redirect_darts_output, sim_params
-from model_3ph_bo import Model
+from model_2ph_do import Model
 import pandas as pd
 
 import matplotlib.pyplot as plt
